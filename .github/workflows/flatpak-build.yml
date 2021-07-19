@@ -15,5 +15,5 @@ jobs:
     - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
       with:
         bundle: palette.flatpak
-        manifest-path: org.gnome.zbrown.Palette.yml
+        manifest-path: org.JTechnologies.Daze.yml
         cache-key: flatpak-builder-${{ github.sha }}

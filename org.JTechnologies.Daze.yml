@@ -1,0 +1,14 @@
+app-id: org.JTechnologies.Daze
+runtime: org.freedesktop.Platform
+runtime-version: '20.08'
+sdk: org.freedesktop.Sdk
+command: daze
+modules:
+  - name: daze
+    buildsystem: simple
+    build-commands:
+      - install -D daze /app/bin/daze
+    sources:
+      - type: file
+        path: daze
+
